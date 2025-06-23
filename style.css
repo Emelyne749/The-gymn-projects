@@ -69,7 +69,7 @@ body {
 
 
 .sect2 {
-  background-image: url('/html&css/images/web2.jpg'); 
+  background-image: url('./images/web2.jpg'); 
   background-size: cover;
   background-position: center;
   height: 90vh;
