@@ -139,13 +139,20 @@ body {
   background-color: #accbeb;
 }
 
+
+
 /*register message section */
+
+
+
+
 .register-msg{
   background-color: #060743;
   color: white;
   padding: 20px;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
   border-radius: 8px;
   width: 900px;
   height: 70px;
@@ -183,6 +190,7 @@ body {
 .accommodation-section h2 {
   font-size: 24px;
   margin-bottom: 20px;
+  margin-top: 20px;
   color: #111;
 }
 
@@ -246,4 +254,84 @@ body {
   width: 100%;
   height: auto;
   object-fit: contain;
+}
+
+
+
+
+
+
+
+
+
+/* Footer styles */
+
+footer {
+  background-color: #f1f1f1;
+  color: #333;
+  text-align: center;
+  padding: 20px 40px;
+  font-size: 14px;
+  line-height: 1.6;
+  border-top: 1px solid #ccc;
+}
+
+footer p {
+  margin: 0;
+  max-width: 800px;
+  margin-inline: auto;
+}
+
+
+
+
+
+
+
+
+/*section 4*/
+
+
+
+.footer {
+  background-color: #f3f3f3;
+  padding: 40px 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1 1 250px;
+  margin: 10px;
+}
+
+.footer-section h3 {
+  color: #000;
+  margin-bottom: 15px;
+  font-size: 1.1em;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  color: #0066cc;
+  text-decoration: none;
+  font-size: 0.95em;
+}
+
+.footer-section ul li a:hover {
+  text-decoration: underline;
 }
